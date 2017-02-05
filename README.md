@@ -30,4 +30,8 @@ mkdir -p ~/.config/powerline/themes/tmux
 ln -s $(pwd)/.tmux.conf ~/.tmux.conf
 ln -s $(pwd)/.config/powerline/themes/tmux ~/.config/powerline/themes/tmux/
 ```
+To view internal IP you must restart powerline daemon:
 
+```bash
+powerline-daemon --replace
+```
