@@ -5,10 +5,6 @@
                 "function": "powerline.segments.common.net.external_ip",
                 "priority": 50
             },
-            {
-                "function": "powerline.segments.common.net.internal_ip",
-                "priority": 50
-            },
 			{
 				"function": "powerline.segments.common.sys.uptime",
 				"priority": 50
