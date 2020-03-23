@@ -14,6 +14,16 @@ This will show the following information:
 - Time
 - Hostname
 
+## Manjaron Installation
+
+```bash
+sudo pacman -S powerline powerline-fonts
+yay powerline-fonts-git
+```
+For [tmux](https://wiki.archlinux.org/index.php/Powerline#Tmux) add the
+`powerline.conf` to your `~/.tmux.conf`
+
+`source /usr/lib/python3.8/site-packages/powerline/bindings/tmux/powerline.conf`
 
 ## Fedora Installation
 
