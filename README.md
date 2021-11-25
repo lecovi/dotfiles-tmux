@@ -1,4 +1,5 @@
 # dotfiles-tmux
+
 Tmux config files.
 
 ## Powerline in tmux
@@ -16,24 +17,13 @@ This will show the following information:
 
 ## Manjaron Installation
 
+Install `powerline` for [tmux](https://wiki.archlinux.org/index.php/Powerline#Tmux).
+
 ```bash
 sudo pacman -S powerline powerline-fonts
-yay powerline-fonts-git
-```
-For [tmux](https://wiki.archlinux.org/index.php/Powerline#Tmux) add the
-`powerline.conf` to your `~/.tmux.conf`
-
-`source /usr/lib/python3.8/site-packages/powerline/bindings/tmux/powerline.conf`
-
-## Fedora Installation
-
-To install this plugin in Fedora 24, run:
-
-```bash
-sudo dnf install tmux tmux-powerline
 ```
 
-Then create `~/.config/powerline/themes/tmux` and make symbolic links to:
+Create directory and copy the necesary files.
 
 ```bash
 mkdir -p ~/.config/powerline/themes/tmux
@@ -49,27 +39,10 @@ sudo pip install netifaces
 powerline-daemon --replace
 ```
 
-## Debian Installation
+## MacOS Installation
 
-To install this plugin in Debian systems:
+Check out [MacOS branch](/lecovi/dotfiles-tmux/tree/macos)
 
-```bash
-sudo apt install tmux powerline fonts-powerline python-dev
-sudo pip install netifaces
-```
+## Debian or Fedora Installation
 
-Then create `~/.config/powerline/themes/tmux` and make symbolic links to:
-
-```bash
-mkdir -p ~/.config/powerline/themes/tmux
-ln -s $(pwd)/.tmux.conf.debian ~/.tmux.conf
-ln -s $(pwd)/.config/powerline/themes/tmux ~/.config/powerline/themes/tmux/
-```
-
-To view internal IP you must restart powerline daemon:
-
-```bash
-powerline-daemon --replace
-```
-
-
+Check out [Debian or Fedora branch](/lecovi/dotfiles-tmux/tree/zenbook)
