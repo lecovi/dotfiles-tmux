@@ -35,7 +35,7 @@ To view internal IP you must install `netifaces` python package and restart
 powerline daemon:
 
 ```bash
-sudo pip install netifaces
+pip install --user netifaces psutil powerline-status
 powerline-daemon --replace
 ```
 
