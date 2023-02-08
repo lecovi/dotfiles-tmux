@@ -20,10 +20,10 @@ This will show the following information:
 
 ## MacOS Installation
 
-This needs `powerline-status`, `netifaces` and `psutils`:
+This needs `powerline-status`, `netifaces` and `psutil`:
 
 ```bash
-pip install --user powerline-status netifaces psutils
+pip install --user powerline-status netifaces psutil
 ```
 
 Then create `~/.config/powerline/themes/tmux` and make symbolic links to:
@@ -45,5 +45,4 @@ powerline-daemon --replace
 If you don't have `powerline` command check if executable is in PATH.
 
 #FIXME: poner el path
-
 
